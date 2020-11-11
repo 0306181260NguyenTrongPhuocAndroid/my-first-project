@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+<com.makeramen.roundedimageview.RoundedImageView
+    android:layout_width="match_parent"
+    android:layout_height="450dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/imageSlide"
+    app:riv_corner_radius="12dp"
+    android:adjustViewBounds="true">
+</com.makeramen.roundedimageview.RoundedImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/title"
+        android:text="Mắt biếc"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="#FFFFFF"
+        >
+    </TextView>
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="37dp"
+        android:text="Tình cảm"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"></TextView>
+</LinearLayout>
